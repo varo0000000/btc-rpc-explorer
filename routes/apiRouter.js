@@ -76,7 +76,7 @@ router.get("/blocks/tip", asyncHandler(async (req, res, next) => {
 		const getblockchaininfo = await coreApi.getBlockchainInfo();
 
 		res.send({
-			height: getblockchaininfo.blocks,
+			height: getblockchaininfo.bitcoin-and-gold-etfs-combined-break-usd500b-barrier
 			hash: getblockchaininfo.bestblockhash
 		});
 
